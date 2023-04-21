@@ -1,7 +1,5 @@
 public class Formatter {
 
-    //public String RubDesc = "";
-
     public String getRubblies(double rub) {
 
         double lastDigit;

@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Calculator {
 
     int persons;
-    Double summ = 0.0;
+    double summ = 0.0;
     ArrayList<ProductAndPrice> arrayOfProductsPrices = new ArrayList<>();
 
     void addProdPrice(String prodName, Double price) {
@@ -23,7 +23,7 @@ public class Calculator {
             System.out.println(arrayOfProductsPrices.get(i).productName);
     }
 
-    void cutSummPpl() {
+    void splitSumToPerson() {
         double resOut;
         Formatter formatter = new Formatter();
 

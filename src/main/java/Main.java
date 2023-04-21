@@ -8,7 +8,7 @@ public class Main {
         boolean exept;
         String productName;
         String qa;
-        Double price;
+        double price;
         Scanner scanner = new Scanner(System.in);
 
         ///////////////////////////////////////
@@ -101,7 +101,7 @@ public class Main {
 
         // 3.Вывод суммы, которую должен заплатить каждый человек, должен быть в формате "10.45".
         // Дробная часть не должна содержать больше двух чисел после запятой.
-        calculator.cutSummPpl();
+        calculator.splitSumToPerson();
 
 
     }
