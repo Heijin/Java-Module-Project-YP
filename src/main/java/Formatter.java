@@ -6,11 +6,11 @@ public class Formatter {
 
         double cel = Math.floor(rub);
 
-        if (cel>=100 && cel % 100 >=11 && cel % 100 <= 19)
-            // Сразу сделаю возврат, т.к. диапазон подразумевает "рублей".
+        if (cel >= 100 && cel % 100 >= 11 && cel % 100 <= 19)
             return "рублей";
-            //lastDigit = cel % 100;
-        else if (cel>=10)
+        else if (cel>=11 && cel<=19)
+            return "рублей";
+        else if (cel >= 10)
             lastDigit = cel % 10;
         else lastDigit = cel;
 
